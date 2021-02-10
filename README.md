@@ -27,8 +27,7 @@ page가 invalid 한 경우 page fault가 발생하였다고 한다. TLB miss이�
 page number에 frame number를 저장하고, 그 page number가 invalid에서 valid하게 되므로 1로
 설정한다. TLB에 엔트리가 32개를 넘으면 맨 처음에 저장되었던 엔트리부터 다시 새로 저장하는
 TLB replacement가 발생한다. page table의 frame number는 page number의 위치에 0에서 255
-사이의 값으로 0부터 순차적으로 저장된다. Frame table의 free or used는 number에 해당되는 위
-치가 frame을 사용중이므로 1로 설정된다.
+사이의 값으로 0부터 순차적으로 저장된다. Frame table의 free or used는 number에 해당되는 위치가 frame을 사용중이므로 1로 설정된다.
 
 Physical memory에는 256개의 frame들이 있고 한 frame의 사이즈는 256 byte 이므로 frame들
 의 총 크기는 65536 byte가 된다. Physical address는 frame number와 frame size를 곱하여 offset
