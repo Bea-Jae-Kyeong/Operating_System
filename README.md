@@ -1,6 +1,8 @@
 # Operating_System
 The work done in Operation System
 
+<image src="https://github.com/Bea-Jae-Kyeong/Operating_System/blob/master/12161595_%EB%B0%B0%EC%9E%AC%EA%B2%BD.png?raw=true"></image>
+
 Logical address를 physical address로 변환하는 프로그램이다. 가상 주소의 크기는 32bit에서 사용
 하지 않는 앞 쪽 16bit를 제외한 나머지 16bit, 즉 65536 바이트이다. TLB는 table을 빠르게 참
 조하기 위한 효과적인 메모리 접근 방법으로, 메모리에 한 번 접근하고 TLB를 사용하는 방법이
